@@ -1,0 +1,18 @@
+Key,File,Type,english
+carsRandomRespawner,blocks,block,Random Car Respawner
+busRandomHelper,blocks,block,Random Bus Helper
+serviceTrucksRandomHelper,blocks,block,Random Service Truck Helper
+armyTrucksRandomRespawner,blocks,block,Random Army Truck Respawner
+serviceTrucksRandomRespawner,blocks,block,Random Service Truck Respawner
+busRandomRespawner,blocks,block,Random Bus Respawner
+busShortRespawner,blocks,block,Short Bus Respawner
+tractorsRandomHelper,blocks,block,Random Tractor Helper
+excavatorsRandomHelper,blocks,block,Random Excavator Helper
+excavatorClawsRandomHelper,blocks,block,Random Claw Excavator Helper
+backhoesRandomHelper,blocks,block,Random Back Hoe Helper
+cars3WideRandomRespawner,blocks,block,Random Car Respawner
+farmTrucksRandomRespawner,blocks,block,Random Farm Track Respawner
+tractorsRandomRespawner,blocks,block,Random Tractor Respawner
+excavatorsRandomRespawner,blocks,block,Random Excavator Respawner
+excavatorClawsRandomRespawner,blocks,block,Random Claw Excavator Respawner
+backhoesRandomRespawner,blocks,block,Random Backhoe Respawner
