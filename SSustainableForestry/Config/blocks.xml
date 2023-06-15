@@ -100,7 +100,7 @@ blocks.xml
             <property name="MaxDamage" value="50"/>
             <property name="Material" value="Mplants"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="Model" value="#Entities/Trees?OakSeed01Prefab.prefab"/>
+            <property name="Model" value="@:Entities/Trees/OakSeed01Prefab.prefab"/>
             <property name="ModelOffset" value="0,-0.2,0"/>
             <property name="Collide" value="melee"/>
             <property name="FallOver" value="false"/>
@@ -124,7 +124,7 @@ blocks.xml
             <property name="MaxDamage" value="50"/>
             <property name="Material" value="Mplants"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/>
+            <property name="Model" value="@:Entities/Trees/MountainPineSeed01Prefab.prefab"/>
             <property name="ModelOffset" value="0,-0.2,0"/>
             <property name="Collide" value="melee"/>
             <property name="FallOver" value="false"/>
@@ -150,7 +150,7 @@ blocks.xml
             <property name="MaxDamage" value="50"/>
             <property name="Material" value="Mplants"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="Model" value="#Entities/Trees?MountainPineSeed01Prefab.prefab"/>
+            <property name="Model" value="@:Entities/Trees/MountainPineSeed01Prefab.prefab"/>
             <property name="ModelOffset" value="0,-0.2,0"/>
             <property name="Collide" value="melee"/>
             <property name="FallOver" value="false"/>
@@ -173,7 +173,7 @@ blocks.xml
             <property name="MaxDamage" value="50"/>
             <property name="StabilitySupport" value="false"/>
             <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="#Entities/Trees?SnakeweedPrefab.prefab"/>
+            <property name="Model" value="@:Entities/Trees/SnakeweedPrefab.prefab"/>
             <property name="ModelOffset" value="0,0,0"/>
             <property name="Collide" value="melee"/>
             <property name="FallOver" value="false"/>

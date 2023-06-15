@@ -37,8 +37,33 @@ blocks.xml
             <property name="SortOrder2" value="0050"/>
             <property name="DisplayType" value="blockTerrainFertile"/>
         </block>
+
+        <block name="cntBirdnestEmpty">
+            <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/birdnestPrefab.prefab"/>
+            <property name="ModelOffset" value="0,0,0"/>
+            <property name="GndAlign" value="1"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="PlantGrowing.Next" value="cntBirdnest"/>
+            <property name="PlantGrowing.GrowthRate" value="126.0"/>
+            <drop event="Harvest" name="resourceCloth" count="1" prob="0.3" tag="allHarvest"/>
+            <drop event="Harvest" name="resourceFeather" count="3" prob="0.35" tag="allHarvest"/>
+            <drop event="Harvest" name="resourceFeather" count="2" prob="0.6" tag="allHarvest"/>
+            <drop event="Destroy" name="resourceYuccaFibers" count="2,8"/>
+            <property name="SortOrder1" value="B267"/>
+            <property name="SortOrder2" value="0000"/>
+            <property name="FilterTags" value="MC_building,SC_loot"/>
+        </block>
     </append>
 
+    <insertAfter xpath="/blocks/block[@name='cntBirdnest']/property[@name='StabilitySupport']">
+	    <property name="DowngradeBlock" value="cntBirdnestEmpty"/>
+    </insertAfter>
     <!-- SJ: Make glass fully transparent so it can be used over farms -->
 
     <set xpath="/blocks/block[@name='glassBulletproofMaster']/property[@name='LightOpacity']/@value">0</set>

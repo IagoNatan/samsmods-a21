@@ -16,3 +16,11 @@ tractorsRandomRespawner,blocks,block,Random Tractor Respawner
 excavatorsRandomRespawner,blocks,block,Random Excavator Respawner
 excavatorClawsRandomRespawner,blocks,block,Random Claw Excavator Respawner
 backhoesRandomRespawner,blocks,block,Random Backhoe Respawner
+policeCarRandomRespawner,blocks,block,Police Car Respawner
+FireTruckRandomRespawner,blocks,block,Random Fire Truck Respawner
+SemiTruckModularRandomRespawner,blocks,block,Random Semi Truck - Modular Front Respawner
+SemiTruckRandomRespawner,blocks,block,Random Semi Truck Respawner
+SUVs3WideRandomRespawner,blocks,block,Random SUV Respawner
+SUVsRandomRespawner,blocks,block,Random SUV Respawner
+minivans3WideRandomRespawner,blocks,block,Random Minivan Respawner
+minivansRandomRespawner,blocks,block,Random Minivan Respawner

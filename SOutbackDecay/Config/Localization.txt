@@ -94,3 +94,27 @@ abandonedPickupTruck3Wide01RandomHelper,blocks,block,,= Abandoned Ute 3 Wide = R
 abandonedPickupTruck3Wide01Red,blocks,block,,Red Abandoned Ute 3 Wide
 abandonedPickupTruck3Wide01White,blocks,block,,White Abandoned Ute 3 Wide
 abandonedPickupTruck3Wide01Yellow,blocks,block,,Yellow Abandoned Ute 3 Wide
+cntBirdnestEmpty,blocks,block,,Birds Nest
+cntPickupTruck01AirRandomHelper,blocks,block,,= Ute/Air = Random Helper
+cntPickupTruck01Blue,blocks,block,,Blue Ute
+cntPickupTruck01Brown,blocks,block,,Brown Ute
+cntPickupTruck01Green,blocks,block,,Green Ute
+cntPickupTruck01Grey,blocks,block,,Grey Ute
+cntPickupTruck01Orange,blocks,block,,Orange Ute
+cntPickupTruck01Pink,blocks,block,,Pink Ute
+cntPickupTruck01Purple,blocks,block,,Purple Ute
+cntPickupTruck01RandomHelper,blocks,block,,= Ute = Random Helper
+cntPickupTruck01Red,blocks,block,,Red Ute
+cntPickupTruck01White,blocks,block,,White Ute
+cntPickupTruck01Yellow,blocks,block,,Yellow Ute
+cntPickupTruck3Wide01Blue,blocks,block,,Blue Ute
+cntPickupTruck3Wide01Brown,blocks,block,,Brown Ute
+cntPickupTruck3Wide01Green,blocks,block,,Green Ute
+cntPickupTruck3Wide01Grey,blocks,block,,Grey Ute
+cntPickupTruck3Wide01Orange,blocks,block,,Orange Ute
+cntPickupTruck3Wide01Pink,blocks,block,,Pink Ute
+cntPickupTruck3Wide01Purple,blocks,block,,Purple Ute
+cntPickupTruck3Wide01RandomHelper,blocks,block,,= Ute 3 Wide = Random Helper
+cntPickupTruck3Wide01Red,blocks,block,,Red Ute
+cntPickupTruck3Wide01White,blocks,block,,White Ute
+cntPickupTruck3Wide01Yellow,blocks,block,,Yellow Ute
