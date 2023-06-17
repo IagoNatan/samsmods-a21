@@ -1,0 +1,12 @@
+<!--
+Sam's Persistent Trash
+v21.0.0
+by saminal
+
+loot.xml
+-->
+
+<configs>
+    <removeattribute xpath="lootcontainers/lootcontainer[@destroy_on_close='empty']/@destroy_on_close" />
+    <removeattribute xpath="lootcontainers/lootcontainer[@destroy_on_close='true']/@destroy_on_close" />
+</configs>

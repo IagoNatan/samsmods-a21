@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="Sams_Persistent_Trash" />
+		<DisplayName value="Sam's Persistent Trash" />
+		<Description value="Prevents containers like trash, medical piles and bags from being destroyed upon emptying" />
+		<Author value="Saminal" />
+		<Version value="21.0.0" />
+		<Website value="https://discord.gg/mBJwEw4kj8" />
+
+</xml>
