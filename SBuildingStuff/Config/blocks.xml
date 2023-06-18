@@ -147,7 +147,7 @@ blocks.xml
 			<property name="MaxDamage" value="264"/>
 			<property name="Shape" value="ModelEntity"/>
     		<property name="Model" value="Entities/traps/ironSpikesTrapPrefab"/>
-			<property name="Texture" value="191"/>
+			<property name="TintColor" value="ccccff"/>
 			<property name="IsTerrainDecoration" value="false"/>
 			<property name="ImposterExclude" value="true"/>
 			<property name="Collide" value="movement,melee"/>
