@@ -339,7 +339,8 @@ blocks.xml
 
 		<block name="decoUtilityCartFull">
 			<property name="Extends" value="cntUtilityCartFull" param1="Class"/>
-			<property name="CustomIcon" value="cntUtilityCartFull"/>
+			<property name="CustomIcon" value="cntUtilityCartFullWhite"/>
+			<property name="CustomIconTint" value="CCCCCC"/>
 		</block>
 
 		<block name="decoGunRackSmallMagazines">
@@ -394,7 +395,8 @@ blocks.xml
 
 		<block name="decoDishwasherFullWhite_Player">
 			<property name="Extends" value="cntDishwasherFullWhite_Player" param1="Class"/>
-			<property name="CustomIcon" value="cntDishwasherFullWhite_Player"/>
+			<property name="CustomIcon" value="cntDishwasherFullWhite"/>
+			<property name="CustomIconTint" value="C3B0A3"/>
 		</block>
 
 		<block name="decoMedicineCabinetFaucetClosed">
