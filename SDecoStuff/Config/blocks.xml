@@ -17,7 +17,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,cntBookcaseFull,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,palletEmpty,palletEmptyStack,cntCoffinWildWestClosed,cntCoffinWildWestCracked,cntCoffinWildWestStack,cntCoffinWildWestLeaning,cntCoffinWildWestLidLeaning,shootingRangeTarget"/>
+			<property name="PlaceAltBlockValue" value="wineBarrel,wineBarrelSet,wineBarrelPlain,paintingBen,paintingLorien,paintingDerek,paintingNoah,paintingDuke,paintingKen,decoClassicDogHouse,cntBookcaseEmpty,decoBookcase,emberPileDeco1,emberPileDeco2,driftwood,driftwood2,signShopColdBeer,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,palletEmpty,palletEmptyStack,decoCoffinWildWestClosed,decoCoffinWildWestCracked,decoCoffinWildWestStack,decoCoffinWildWestLeaning,decoCoffinWildWestLidLeaning,shootingRangeTarget,piano,woodenBear,tableCommunion"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -28,7 +28,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="cntIceMachine,decoMetalBollard,decoCookingPot,cntBinTrashMetalEmptyWhite,cntDomedTrashCanEmpty,cntFancyGarbageCan,decoWeightBar,decoBenchPress,decoStationaryBike,cntFileCabinetTallClosed,cntFileCabinetShortClosed,cntBathTubEmpty,decoClawFootBathTub,cntCashRegister,cntToolBoxClosedRed,cntRollingToolBoxClosedRed,cntUtilityCartFull,decoTableRound,signRoadPrivate,signYardSign01,signRoadStop,signRoadWork,cntGunRackSmallEmpty01,cntGunRackSmallEmpty03,cntGunRackSmallMagazines,cntGunRackSmallArmor,cntGunRackLargeGuns01,cntGunRackLargeGuns02,cntCharcoalGrillOpen,cntGasGrillOpen,rebarDestroyed,decoSwingSet,decoMetalSlide,cntShoppingCartEmptyWhite,decoHandTruck,decoHoistChain,decoHoistHook,jailBarsGrey,cntClothesRackRoundEmpty,cntClothesRackRoundEmpty2,cntClothesRackRectangleEmpty,cntClothesRackRectangleEmpty2,cntClothesRackWallFlat,cntClothesRackWallEmptyHanger,cntStoreShelfDoubleBottomShoesEmpty,cntStoreShelfDoubleTopShoesEmpty,cntStoreShelfSingleBottomShoesEmpty,cntStoreShelfSingleTopShoesEmpty,decoTableSaw"/>
+			<property name="PlaceAltBlockValue" value="cntIceMachine,decoMetalBollard,decoCookingPot,cntBinTrashMetalEmptyWhite,cntDomedTrashCanEmpty,cntFancyGarbageCan,decoWeightBar,decoBenchPress,decoStationaryBike,decoFileCabinetTallClosed,decoFileCabinetShortClosed,cntBathTubEmpty,decoClawFootBathTub,decoCashRegister,decoToolBoxClosedRed,decoRollingToolBoxClosedRed,decoUtilityCartFull,decoTableRound,signRoadPrivate,signYardSign01,signRoadStop,signRoadWork,cntGunRackSmallEmpty01,cntGunRackSmallEmpty03,decoGunRackSmallMagazines,decoGunRackSmallArmor,decoGunRackLargeGuns01,decoGunRackLargeGuns02,cntCharcoalGrillOpen,cntGasGrillOpen,rebarDestroyed,decoSwingSet,decoMetalSlide,cntShoppingCartEmptyWhite,decoHandTruck,decoHoistChain,decoHoistHook,jailBarsGrey,cntClothesRackRoundEmpty,cntClothesRackRoundEmpty2,cntClothesRackRectangleEmpty,cntClothesRackRectangleEmpty2,cntClothesRackWallFlat,cntClothesRackWallEmptyHanger,cntStoreShelfDoubleBottomShoesEmpty,cntStoreShelfDoubleTopShoesEmpty,cntStoreShelfSingleBottomShoesEmpty,cntStoreShelfSingleTopShoesEmpty,decoTableSaw,chairFoldingMetalUnfoldedBlack,chairFoldingMetalFoldedFallenBlack,chairCampingGreen,wheelchairBlack,escalatorMiddle,escalatorPreTop,escalatorTop,waterHeaterWhite,horseshoe_01,horseshoe_02,horseshoe_03"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -50,7 +50,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="decoMannequinFemale,decoMannequinMale,cntSuitcase,decoCarTireFlat,decoCarTirePile,decoCarTireStack,palletBrownBoxesBase,palletBrownBoxesTile,palletBrownBoxesTop,palletBrownBoxesLoose,decoCowSkull"/>
+			<property name="PlaceAltBlockValue" value="decoMannequinFemale,decoMannequinMale,decoSuitcase,decoCarTireFlat,decoCarTirePile,decoCarTireStack,palletBrownBoxesBase,palletBrownBoxesTile,palletBrownBoxesTop,palletBrownBoxesLoose,decoCowSkull,coneConstruction,standIV,portaPottyBlue,decoMannequinMilitaryCommando,barrierMilitary,cntbasketLaundryEmptyWhite,cntbinTrashRollingGreen"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -72,7 +72,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="cntMicrowaveOvenVer1Closed,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,cntWasherClosed,cntDryerClosed,cntDishwasherFullWhite_Player,hoodRangeWhite,hoodRangeBlack,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor,decoLaptop,decoServerRackWhite,decoServerRackGrey,wallClock,satelliteUnitSmallWall,satelliteUnitSmallFloor,decoTreadmill"/>
+			<property name="PlaceAltBlockValue" value="decoMicrowaveOvenVer1Closed,decoRetroFridgeVer1Closed,decoFridgeStainlessSteel,decoWasherClosed,decoDryerClosed,decoDishwasherFullWhite_Player,hoodRangeWhite,hoodRangeBlack,cntToaster,cntCoffeeMaker,cntCoffeeMakerCommercial,decoComputerDeskTopPC,decoComputerMonitorKeyboardMousePC,decoComputerMonitorKeyboardMouse,decoComputerMonitor,decoLaptop,decoServerRackWhite,decoServerRackGrey,wallClock,satelliteUnitSmallWall,satelliteUnitSmallFloor,decoTreadmill,liftHydraulicRed,microphoneWithStand,microphoneWithStandFallen,microphoneDesk,microphoneDeskCorner,radioHam,tvCRT,projectorCeiling,projectorTableTop,plantHydroponicAloe,plantHydroponicVertical,elevatorInsidePanel,elevatorOutsideButtonPanel,elevatorOutsideFloorPanel,elevatorOutsideFloorPanelDouble"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 
@@ -83,7 +83,7 @@ blocks.xml
 			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
 			<property name="ItemTypeIcon" value="all_blocks"/>
 			<property name="SelectAlternates" value="true"/>
-			<property name="PlaceAltBlockValue" value="decoReptileTerrarium,cntMedicineCabinetFaucetClosed,cntMedicineCabinetClosed,wallMirror,signBathroomSignUnisexWallMount,signBathroomSignUnisexCeilingMount,signBathroomSignWomenWallMount,signBathroomSignWomenCeilingMount,signBathroomSignMenWallMount,signBathroomSignMenCeilingMount,signPosterMovieTheater2159,signPosterMovieTheaterLoneWolf,signPosterMovieTheaterMammasJustice,signPosterMovieTheaterSexualTension"/>
+			<property name="PlaceAltBlockValue" value="decoReptileTerrarium,decoMedicineCabinetFaucetClosed,decoMedicineCabinetClosed,wallMirror,signBathroomSignUnisexWallMount,signBathroomSignUnisexCeilingMount,signBathroomSignWomenWallMount,signBathroomSignWomenCeilingMount,signBathroomSignMenWallMount,signBathroomSignMenCeilingMount,signPosterMovieTheater2159,signPosterMovieTheaterLoneWolf,signPosterMovieTheaterMammasJustice,signPosterMovieTheaterSexualTension"/>
 			<property name="EconomicValue" value="60"/> <!-- disassemble value -->
 		</block>
 	
@@ -278,6 +278,137 @@ blocks.xml
 			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
 			<property name="SortOrder1" value="70i0"/>
 		</block>
+
+		<block name="decoBookcase">
+			<property name="Extends" value="cntBookcaseFull" param1="Class"/>
+			<property name="CustomIcon" value="cntBookcaseFull"/>
+		</block>
+
+		<block name="decoCoffinWildWestClosed">
+			<property name="Extends" value="cntCoffinWildWestClosed" param1="Class"/>
+			<property name="CustomIcon" value="cntCoffinWildWestClosed"/>
+		</block>
+
+
+		<block name="decoCoffinWildWestCracked">
+			<property name="Extends" value="cntCoffinWildWestCracked" param1="Class"/>
+			<property name="CustomIcon" value="cntCoffinWildWestCracked"/>
+		</block>
+
+		<block name="decoCoffinWildWestStack">
+			<property name="Extends" value="cntCoffinWildWestStack" param1="Class"/>
+			<property name="CustomIcon" value="cntCoffinWildWestStack"/>
+		</block>
+
+		<block name="decoCoffinWildWestLeaning">
+			<property name="Extends" value="cntCoffinWildWestLeaning" param1="Class"/>
+			<property name="CustomIcon" value="cntCoffinWildWestLeaning"/>
+		</block>
+
+		<block name="decoCoffinWildWestLidLeaning">
+			<property name="Extends" value="cntCoffinWildWestLidLeaning" param1="Class"/>
+			<property name="CustomIcon" value="cntCoffinWildWestLidLeaning"/>
+		</block>
+
+		<block name="decoFileCabinetTallClosed">
+			<property name="Extends" value="cntFileCabinetTallClosed" param1="Class"/>
+			<property name="CustomIcon" value="cntFileCabinetTallClosed"/>
+		</block>
+
+		<block name="decoFileCabinetShortClosed">
+			<property name="Extends" value="cntFileCabinetShortClosed" param1="Class"/>
+			<property name="CustomIcon" value="cntFileCabinetShortClosed"/>
+		</block>
+
+		<block name="decoCashRegister">
+			<property name="Extends" value="cntCashRegister" param1="Class"/>
+			<property name="CustomIcon" value="cntCashRegister"/>
+		</block>
+
+		<block name="decoToolBoxClosedRed">
+			<property name="Extends" value="cntToolBoxClosedRed" param1="Class"/>
+			<property name="CustomIcon" value="cntToolBoxClosedWhite"/>
+			<property name="CustomIconTint" value="7F6868"/>
+		</block>
+
+		<block name="decoRollingToolBoxClosedRed">
+			<property name="Extends" value="cntRollingToolBoxClosedRed" param1="Class"/>
+			<property name="CustomIcon" value="cntRollingToolBoxClosedWhite"/>
+			<property name="CustomIconTint" value="7F6868"/>
+		</block>
+
+		<block name="decoUtilityCartFull">
+			<property name="Extends" value="cntUtilityCartFull" param1="Class"/>
+			<property name="CustomIcon" value="cntUtilityCartFull"/>
+		</block>
+
+		<block name="decoGunRackSmallMagazines">
+			<property name="Extends" value="cntGunRackSmallMagazines" param1="Class"/>
+			<property name="CustomIcon" value="cntGunRackSmallMagazines"/>
+		</block>
+
+		<block name="decoGunRackSmallArmor">
+			<property name="Extends" value="cntGunRackSmallArmor" param1="Class"/>
+			<property name="CustomIcon" value="cntGunRackSmallArmor"/>
+		</block>
+
+		<block name="decoGunRackLargeGuns01">
+			<property name="Extends" value="cntGunRackLargeGuns01" param1="Class"/>
+			<property name="CustomIcon" value="cntGunRackLargeGuns01"/>
+		</block>
+
+		<block name="decoGunRackLargeGuns02">
+			<property name="Extends" value="cntGunRackLargeGuns02" param1="Class"/>
+			<property name="CustomIcon" value="cntGunRackLargeGuns02"/>
+		</block>
+
+		<block name="decoSuitcase">
+			<property name="Extends" value="cntSuitcase" param1="Class"/>
+			<property name="CustomIcon" value="cntSuitcase"/>
+		</block>
+
+		<block name="decoMicrowaveOvenVer1Closed">
+			<property name="Extends" value="cntMicrowaveOvenVer1Closed" param1="Class"/>
+			<property name="CustomIcon" value="cntMicrowaveOvenVer1Closed"/>
+		</block>
+
+		<block name="decoRetroFridgeVer1Closed">
+			<property name="Extends" value="cntRetroFridgeVer1Closed" param1="Class"/>
+			<property name="CustomIcon" value="cntRetroFridgeVer1Closed"/>
+		</block>
+
+		<block name="decoFridgeStainlessSteel">
+			<property name="Extends" value="cntFridgeStainlessSteel" param1="Class"/>
+			<property name="CustomIcon" value="cntFridgeStainlessSteel"/>
+		</block>
+
+		<block name="decoWasherClosed">
+			<property name="Extends" value="cntWasherClosed" param1="Class"/>
+			<property name="CustomIcon" value="cntWasherClosed"/>
+		</block>
+
+		<block name="decoDryerClosed">
+			<property name="Extends" value="cntDryerClosed" param1="Class"/>
+			<property name="CustomIcon" value="cntDryerClosed"/>
+		</block>
+
+		<block name="decoDishwasherFullWhite_Player">
+			<property name="Extends" value="cntDishwasherFullWhite_Player" param1="Class"/>
+			<property name="CustomIcon" value="cntDishwasherFullWhite_Player"/>
+		</block>
+
+		<block name="decoMedicineCabinetFaucetClosed">
+			<property name="Extends" value="cntMedicineCabinetFaucetClosed" param1="Class"/>
+			<property name="CustomIcon" value="cntMedicineCabinetFaucetClosed"/>
+		</block>
+
+		<block name="decoMedicineCabinetClosed">
+			<property name="Extends" value="cntMedicineCabinetClosed" param1="Class"/>
+			<property name="CustomIcon" value="cntMedicineCabinetClosed"/>
+		</block>
+
+
+
 	</append>
 
 	<!-- SJ: Fix some placement weirdness with a handful of the vanilla blocks -->
