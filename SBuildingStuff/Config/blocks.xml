@@ -292,5 +292,231 @@ blocks.xml
 			<property name="PickupJournalEntry" value="shapeMenuTip"/>
 		</block>
 
+		<block name="elevatorDoorPowered">
+			<property name="Extends" value="elevatorDoor"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="CustomIcon" value="elevatorDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+		</block>
+
+		<block name="elevatorDoorDoublePowered">
+			<property name="Extends" value="elevatorDoorDouble"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="CustomIcon" value="elevatorDoorDouble"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+		</block>
+
+		<block name="elevatorDoorPoweredVariantHelper">
+			<property name="Extends" value="elevatorDoor"/>
+			<property name="CustomIcon" value="elevatorDoor"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="elevatorDoorPowered,elevatorDoorDoublePowered"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>
+
+		<block name="commercialBulletproofSlidingDoorPowered">
+			<property name="Extends" value="commercialBulletproofSlidingDoor"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="CustomIcon" value="commercialBulletproofSlidingDoor"/>
+			<property name="CustomIconTint" value="5B5B5B"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="TintColor" value="5B5B5B"/>
+		</block>
+
+		<block name="chainlinkFenceDoorPowered">
+			<property name="Extends" value="chainlinkFenceDoor"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="CustomIcon" value="chainlinkFenceDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+		</block>
+
+		<block name="chainlinkFenceDoorDoublePowered">
+			<property name="Extends" value="chainlinkFenceDoorDouble"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="CustomIcon" value="chainlinkFenceDoorDouble"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+		</block>
+
+		<block name="chainlinkFenceDoorPoweredVariantHelper">
+			<property name="Extends" value="chainlinkFenceDoor"/>
+			<property name="CustomIcon" value="chainlinkFenceDoor"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="chainlinkFenceDoorPowered,chainlinkFenceDoorDoublePowered"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>
+
+		<block name="shuttersSteel01Powered">
+			<property name="Extends" value="shuttersSteel01"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="RequiredPower" value="1"/>
+			<property name="CustomIcon" value="shuttersSteel01"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="shuttersSteel02Powered">
+			<property name="Extends" value="shuttersSteel02"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="RequiredPower" value="1"/>
+			<property name="CustomIcon" value="shuttersSteel02"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="shuttersSteel01PoweredVariantHelper">
+			<property name="Extends" value="shuttersSteel01Powered"/>
+			<property name="CustomIcon" value="shuttersSteel01"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="shuttersSteel01Powered,shuttersSteel02Powered"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>
+
+		<block name="trailerDoorWhitePowered">
+			<property name="Extends" value="trailerDoorWhite"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="A5A59E"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorBrownPowered">
+			<property name="Extends" value="trailerDoorBrown"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="594D42"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorRedPowered">
+			<property name="Extends" value="trailerDoorRed"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="8C3E46"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorOrangePowered">
+			<property name="Extends" value="trailerDoorOrange"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="A95630"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorYellowPowered">
+			<property name="Extends" value="trailerDoorYellow"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="808058"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorGreenPowered">
+			<property name="Extends" value="trailerDoorGreen"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="4D5F46"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorBluePowered">
+			<property name="Extends" value="trailerDoorBlue"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="465667"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorPurplePowered">
+			<property name="Extends" value="trailerDoorPurple"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="605C73"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorGreyPowered">
+			<property name="Extends" value="trailerDoorGrey"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="808080"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorBlackPowered">
+			<property name="Extends" value="trailerDoorBlack"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="555555"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorPinkPowered">
+			<property name="Extends" value="trailerDoorPink"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="9A8399"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorArmyGreenPowered">
+			<property name="Extends" value="trailerDoorArmyGreen"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="4A5648"/>
+			<property name="Class" value="PoweredDoor"/>
+			<property name="ItemTypeIcon" value="electric_power"/>
+			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+		</block>
+
+		<block name="trailerDoorPoweredVariantHelper">
+			<property name="Extends" value="trailerDoorWhitePowered"/>
+			<property name="CustomIcon" value="trailerDoorWhite"/>
+			<property name="CustomIconTint" value="A5A59E"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="trailerDoorWhitePowered,trailerDoorBrownPowered,trailerDoorRedPowered,trailerDoorOrangePowered,trailerDoorYellowPowered,trailerDoorGreenPowered,trailerDoorBluePowered,trailerDoorPurplePowered,trailerDoorGreyPowered,trailerDoorBlackPowered,trailerDoorPinkPowered,trailerDoorArmyGreenPowered"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>
+
+		<block name="modularRopeVariantHelper">
+			<property name="Extends" value="modularRopeTiledSideCentered"/>
+			<property name="CustomIcon" value="modularRopeTiledSideCentered"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+			<property name="ItemTypeIcon" value="all_blocks"/>
+			<property name="SelectAlternates" value="true"/>
+			<property name="PlaceAltBlockValue" value="modularRopeTiledSideCentered,modularRopeTopTiedSideCentered"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="PickupJournalEntry" value="shapeMenuTip"/>
+		</block>
+
 	</append>
+
+	<csv xpath="blocks/block[@name='metalFenceRailingTrellisSheetBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value" delim="," op="add">chainlinkFenceDoorDouble</csv>
 </configs>

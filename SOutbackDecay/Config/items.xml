@@ -161,10 +161,10 @@ items.xml
                     <display_value name="dStaminaRegen" value=".4"/>
                     <display_value name="dEntityDamageBrawling" value="3"/>
                     <display_value name="dStunResist" value="1"/>
-                    <display_value name="dDuration" value="60"/>
-                    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="63"/>
-                    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="183">
-                        <requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="183"/></triggered_effect>
+                    <display_value name="dDuration" value="90"/>
+                    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="add" value="93"/>
+                    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffBeerDuration" operation="set" value="303">
+                        <requirement name="CVarCompare" cvar="$buffBeerDuration" operation="GT" value="303"/></triggered_effect>
                     <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffBeer"/>
             </effect_group>
 

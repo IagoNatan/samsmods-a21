@@ -55,36 +55,36 @@ recipes.xml
 		<recipe name="commercialDoorVariantHelper" count="1" craft_time="40">
 			<ingredient name="resourceForgedIron" count="10"/>
 			<ingredient name="resourceScrapBrass" count="10"/>
-			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
 		
 		<recipe name="elevatorDoorVariantHelper" count="1" craft_time="90">
 			<ingredient name="resourceForgedIron" count="10"/>
 			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
 		
 		<recipe name="trailerDoorVariantHelper" count="1" craft_time="10">
 			<ingredient name="resourceForgedIron" count="10"/>
 			<ingredient name="resourceScrapBrass" count="10"/>
-			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
 		
 		<recipe name="woodenFenceDoorVariantHelper" count="1" craft_time="10">
 			<ingredient name="resourceWood" count="20"/>
-			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
 
 		<recipe name="exteriorHouseDoorVariantHelper" count="1" craft_time="10">
 			<ingredient name="resourceWood" count="20"/>
 			<ingredient name="resourceScrapBrass" count="10"/>
-			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
 
 		<recipe name="jailVariantHelper" count="1" craft_time="80">
 			<ingredient name="resourceForgedIron" count="10"/>
 			<ingredient name="resourceForgedSteel" count="5"/>
-			<ingredient name="resourceMechanicalParts" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
 		</recipe>
 
 		<recipe name="cabinetDoorVariantHelper" count="1" craft_time="10">
@@ -99,5 +99,59 @@ recipes.xml
 			<ingredient name="resourceMechanicalParts" count="4"/>
 		</recipe>
 
+		<recipe name="elevatorDoorPoweredVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceSpring" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="commercialBulletproofSlidingDoorPowered" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceForgedSteel" count="5"/>
+			<ingredient name="resourceSpring" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="glassBulletproofBlockVariantHelper" count="1"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="chainlinkFenceDoorPoweredVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceSpring" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceSpring,resourceMechanicalParts,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="shuttersSteel01PoweredVariantHelper" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceSpring" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,resourceSpring,resourceMechanicalParts,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="trailerDoorPoweredVariantHelper" count="1" craft_time="30"craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceScrapBrass" count="10"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceMechanicalParts,resourceElectricParts"/>
+			</effect_group>
+		</recipe>
+
+		<recipe name="modularRopeVariantHelper" count="1">
+			<ingredient name="resourceYuccaFibers" count="25"/>
+		</recipe>
 	</append>
 </configs>

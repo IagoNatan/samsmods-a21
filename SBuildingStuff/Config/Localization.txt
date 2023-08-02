@@ -17,3 +17,27 @@ woodenFenceDoorVariantHelper,blocks,Block,Fence Doors
 jailVariantHelper,blocks,Block,Jail Doors and Bars
 exteriorHouseDoorVariantHelper,blocks,Block,House Doors
 cabinetDoorVariantHelper,blocks,Block,Closet and Cabinet Doors
+elevatorDoorPowered,blocks,Block,Elevator Door (Powered)
+elevatorDoorDoublePowered,blocks,Block,Elevator Door Double (Powered)
+elevatorDoorPoweredVariantHelper,blocks,Block,Elevator Doors (Powered)
+commercialBulletproofSlidingDoorPowered,blocks,Block,Commercial Bulletproof Sliding Door (Powered)
+chainlinkFenceDoorPowered,blocks,Block,Chain Link Door (Powered)
+chainlinkFenceDoorDoublePowered,blocks,Block,Chain Link Door Double (Powered)
+chainlinkFenceDoorPoweredVariantHelper,blocks,Block,Chain Link Doors (Powered)
+shuttersSteel01Powered,blocks,Block,Steel Shutters Inside (Powered)
+shuttersSteel02Powered,blocks,Block,Steel Shutters Outside (Powered)
+shuttersSteel01PoweredVariantHelper,blocks,Block,Steel Shutters (Powered)
+modularRopeVariantHelper,blocks,Block,"Ropes, Climbable"
+trailerDoorWhitePowered,blocks,Block,White Trailer Door (Powered)
+trailerDoorBrownPowered,blocks,Block,Brown Trailer Door (Powered)
+trailerDoorRedPowered,blocks,Block,Red Trailer Door (Powered)
+trailerDoorOrangePowered,blocks,Block,Orange Trailer Door (Powered)
+trailerDoorYellowPowered,blocks,Block,Yellow Trailer Door (Powered)
+trailerDoorGreenPowered,blocks,Block,Green Trailer Door (Powered)
+trailerDoorBluePowered,blocks,Block,Blue Trailer Door (Powered)
+trailerDoorPurplePowered,blocks,Block,Purple Trailer Door (Powered)
+trailerDoorGreyPowered,blocks,Block,Grey Trailer Door (Powered)
+trailerDoorBlackPowered,blocks,Block,Black Trailer Door (Powered)
+trailerDoorPinkPowered,blocks,Block,Pink Trailer Door (Powered)
+trailerDoorArmyGreenPowered,blocks,Block,Army Green Trailer Door (Powered)
+trailerDoorPoweredVariantHelper,blocks,Block,Trailer Doors (Powered)
