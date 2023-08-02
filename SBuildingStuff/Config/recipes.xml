@@ -140,7 +140,7 @@ recipes.xml
 			</effect_group>
 		</recipe>
 
-		<recipe name="trailerDoorPoweredVariantHelper" count="1" craft_time="30"craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+		<recipe name="trailerDoorPoweredVariantHelper" count="1" craft_time="30" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
 			<ingredient name="resourceForgedIron" count="10"/>
 			<ingredient name="resourceScrapBrass" count="10"/>
 			<ingredient name="resourceMechanicalParts" count="10"/>
