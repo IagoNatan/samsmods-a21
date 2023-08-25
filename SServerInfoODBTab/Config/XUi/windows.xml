@@ -20,7 +20,7 @@ windows.xml
 
 				<panel name="header" pos="0,46" height="125" depth="1" disableautobackground="true" >
 					<!-- <sprite depth="1" name="backgroundMain" sprite="menu_empty3px" pos="0,0" height="43" color="[black]" type="sliced" fillcenter="true" globalopacity="true" /> -->
-					<texture depth="6" pos="451,66" width="900" height="125" pivot="center" texture="@http://139.99.144.197:26924/static/img/ingamelogobig.png"/>
+					<texture depth="6" pos="451,66" width="900" height="125" pivot="center" texture="@http://139.99.144.197:26922/files/static/media/ingamelogobig.png"/>
 					<!-- <label style="header.name" pos="6,-6" text="Server Information" /> -->
 				</panel>
 			
@@ -56,7 +56,7 @@ windows.xml
 								<label color="[white]" font_size="23" depth="2" width="900" text="If you need an admin, post your request in chat and include the word &quot;admin&quot;" />
 								<label color="[white]" font_size="23" depth="2" width="900" text="" />
 							</grid>
-							<texture depth="6" pos="798,-132" width="200" height="257" pivot="center" texture="@http://139.99.144.197:26924/static/img/discord2022.png"/>
+							<texture depth="6" pos="798,-132" width="200" height="257" pivot="center" texture="@http://139.99.144.197:26922/files/static/media/discord2022.png"/>
 						</rect>
 					
 						<rect tab_key="Rules">
@@ -124,7 +124,7 @@ windows.xml
 						</rect>
 
 						<rect tab_key="Map">
-							<texture depth="2" pos="450,-325" width="640" height="640" pivot="center" texture="@http://139.99.144.197:26924/static/img/ingamemapODB.png"/>
+							<texture depth="2" pos="450,-325" width="640" height="640" pivot="center" texture="@http://139.99.144.197:26922/files/static/media/ingamemapODB.png"/>
 						</rect>
 
 					</rect>

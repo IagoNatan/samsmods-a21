@@ -389,7 +389,8 @@ blocks.xml
 			<property name="CustomIconTint" value="A5A59E"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorBrownPowered">
@@ -398,7 +399,8 @@ blocks.xml
 			<property name="CustomIconTint" value="594D42"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorRedPowered">
@@ -407,7 +409,8 @@ blocks.xml
 			<property name="CustomIconTint" value="8C3E46"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorOrangePowered">
@@ -416,7 +419,8 @@ blocks.xml
 			<property name="CustomIconTint" value="A95630"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorYellowPowered">
@@ -425,7 +429,8 @@ blocks.xml
 			<property name="CustomIconTint" value="808058"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorGreenPowered">
@@ -434,7 +439,8 @@ blocks.xml
 			<property name="CustomIconTint" value="4D5F46"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorBluePowered">
@@ -443,7 +449,8 @@ blocks.xml
 			<property name="CustomIconTint" value="465667"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorPurplePowered">
@@ -452,7 +459,8 @@ blocks.xml
 			<property name="CustomIconTint" value="605C73"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorGreyPowered">
@@ -461,7 +469,8 @@ blocks.xml
 			<property name="CustomIconTint" value="808080"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorBlackPowered">
@@ -470,7 +479,8 @@ blocks.xml
 			<property name="CustomIconTint" value="555555"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorPinkPowered">
@@ -479,7 +489,8 @@ blocks.xml
 			<property name="CustomIconTint" value="9A8399"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorArmyGreenPowered">
@@ -488,7 +499,8 @@ blocks.xml
 			<property name="CustomIconTint" value="4A5648"/>
 			<property name="Class" value="PoweredDoor"/>
 			<property name="ItemTypeIcon" value="electric_power"/>
-			<property name="CanPickup" value="true" param1="shuttersSteel01PoweredVariantHelper"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="CanPickup" value="true" param1="trailerDoorPoweredVariantHelper"/>
 		</block>
 
 		<block name="trailerDoorPoweredVariantHelper">

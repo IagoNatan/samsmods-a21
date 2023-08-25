@@ -86,7 +86,7 @@ items.xml
         <property name="UnlockedBy" value="solarbankSchematic"/>
     </append>
 
-    <insertAfter xpath="items/item[@name='meleeToolHammerOfGodAdmin']">
+    <append xpath="/items">
         <item name="meleeToolSilverHammer">
             <property name="Extends" value="meleeToolPickT1IronPickaxe"/>
             <property name="Tags" value="tool,sideAttachments,repairTool,attStrength,perkMiner69r,canHaveCosmetic,noMods"/>
@@ -155,5 +155,5 @@ items.xml
                 <passive_effect name="StaminaLoss" operation="base_set" value="52.7" tags="secondary"/>
             </effect_group>
         </item>
-    </insertAfter>
+    </append>
 </configs>
