@@ -1,0 +1,25 @@
+<!--
+Sam's Karmah's Got Piles
+v21.0.0
+by saminal
+
+entityclasses.xml
+-->
+
+<configs>
+
+	<append xpath="/blockplaceholders">
+		<placeholder name="goreBlockRandomHelperM">
+            <block name="goreBlockHumanCorpse1" prob=".5" randomrotation="true"/>
+            <block name="goreBlockHumanCorpse3" prob=".5" randomrotation="true"/>
+			<block name="goreHumanSkull" prob=".5" randomrotation="true"/>
+		</placeholder>
+
+		<placeholder name="goreBlockRandomHelperF">
+			<block name="goreBlockHumanCorpse" prob=".5" randomrotation="true"/>
+            <block name="goreBlockHumanCorpse2" prob=".5" randomrotation="true"/>
+			<block name="goreBlockHumanBones" prob=".5" randomrotation="true"/>
+		</placeholder>
+	</append>
+
+</configs>
