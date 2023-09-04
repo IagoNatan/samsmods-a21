@@ -19,6 +19,7 @@ blocks.xml
             <property name="Collide" value="melee,bullet,arrow,rocket"/>
             <property name="IsTerrainDecoration" value="true"/>
             <property name="StabilitySupport" value="false"/>
+            <property name="Class" value="PlantGrowing"/>
             <property name="PlantGrowing.Next" value="cntBirdnest"/>
             <property name="PlantGrowing.GrowthRate" value="126.0"/> <!-- SJ: According to the doco this is in minutes - make it longer if you have longer days or want more days between respawns. -->
             <drop event="Harvest" name="resourceCloth" count="1" prob="0.3" tag="allHarvest"/>
