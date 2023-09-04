@@ -10,21 +10,20 @@ blocks.xml
     <append xpath="/blocks">
         <block name="cntBirdnestEmpty">
             <property name="Material" value="Mwood_weak"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="@:Entities/LootContainers/birdnestPrefab.prefab"/>
-            <property name="ModelOffset" value="0,0,0"/>
-            <property name="GndAlign" value="1"/>
+            <property name="Shape" value="GrassShort"/>
+            <property name="Mesh" value="grass"/>
+            <property name="Texture" value="573,573,573,573,573,573"/>
             <property name="WaterFlow" value="permitted"/>
             <property name="OnlySimpleRotations" value="true"/>
-            <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            <property name="Collide" value="melee"/>
             <property name="IsTerrainDecoration" value="true"/>
+            <property name="CanDecorateOnSlopes" value="true"/>
             <property name="StabilitySupport" value="false"/>
             <property name="Class" value="PlantGrowing"/>
+            <property name="PlantGrowing.FertileLevel" value="0"/>
             <property name="PlantGrowing.Next" value="cntBirdnest"/>
-            <property name="PlantGrowing.GrowthRate" value="126.0"/> <!-- SJ: According to the doco this is in minutes - make it longer if you have longer days or want more days between respawns. -->
-            <drop event="Harvest" name="resourceCloth" count="1" prob="0.3" tag="allHarvest"/>
-            <drop event="Harvest" name="resourceFeather" count="3" prob="0.35" tag="allHarvest"/>
-            <drop event="Harvest" name="resourceFeather" count="2" prob="0.6" tag="allHarvest"/>
+            <property name="PlantGrowing.GrowthRate" value="123.0"/> <!-- SJ: According to the doco this is in minutes - make it longer if you have longer days or want more days between respawns. -->
+            <property name="PlantGrowing.IsRandom" value="false"/>
             <drop event="Destroy" name="resourceYuccaFibers" count="2,8"/>
             <property name="SortOrder1" value="B267"/>
             <property name="SortOrder2" value="0000"/>
